@@ -1,0 +1,137 @@
+body {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  display: inline-flex;
+  width: 2rem;
+  height:2rem;
+  margin: 0;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(63, 31, 31, 0.3);
+}
+
+h1 {
+  display: inline-flex;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color:cyan;
+}
+
+.navbar-toggler {
+  display: inline-flex;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color:rgb(60, 68, 68);
+}
+
+.navbar-toggler:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+.navbar-toggler:active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px darkcyan;
+}
+
+.collapse navbar-collapse {
+  grid-template-columns: header header;
+}
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  margin: -15rem 0 0 0;
+  padding: 0;
+  text-align: center;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  list-style-type: none;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+li {
+    display: inline-flex;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+  }
+
+  li a {
+    display: inline-flex;
+    margin: auto;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:darkcyan;
+  }
+  
+li a:active {
+    background-color:darkcyan;
+    color: white;
+  }
+
+.images{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+    /* Create a responsive layout for the navigation bar */
+    @media screen and (max-width: 600px) {
+      li {
+        float: none;
+      }
+
+      li a {
+        text-align: left;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media (min-resolution: 300dpi) {
+      body {
+        font-size: 18px;
+      }
+    }
