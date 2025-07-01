@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # A GUIDE TO EVERY YOUNG PERSONNEL WITH A LOVE TO CODE AND PASSIONATE ABOUT MAKING A DIFFERENCE USING TECH.
 
 Take a minute and go through the guide to help you know where to start and even better get a grab of what is happening in the field of Tech.
@@ -28,4 +28,4 @@ Preferrably check on:
 # My First Blog
 
 Guide on Full Stack Web Development
->>>>>>> 578476c45e764bf7bc2570f542b108581a44eea5
+
